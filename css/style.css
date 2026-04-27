@@ -48,3 +48,16 @@ footer {
     color: #e74c3c;
     margin-top: 8px;
 }
+    
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    #intro {
+        font-size: 16px;
+    }
+    button {
+        font-size: 14px;
+    }
+}
