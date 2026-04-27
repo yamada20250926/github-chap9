@@ -11,7 +11,7 @@ function validateLogin() {
 
     // ユーザー名とパスワードの検証ルール
     var usernameRegex = /^[a-zA-Z0-9_]+$/;
-    var passwordRegex = /^(?=.*[A-Za-z])(?=.*\d).{7,}$/;
+    var passwordRegex = /^(?=.*[A-Za-z])(?=.*\d).{8,}$/;
 
     // ユーザー名の検証
     if (!usernameRegex.test(username)) {
